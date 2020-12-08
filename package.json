@@ -19,7 +19,7 @@
     "webpack": "^3.11.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3006 react-scripts start",
     "build": "react-scripts build",
     "test": "mocha --timeout 5000 -w ./test/*.js",
     "eject": "react-scripts eject"
